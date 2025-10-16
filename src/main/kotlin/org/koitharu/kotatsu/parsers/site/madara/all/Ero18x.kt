@@ -11,9 +11,8 @@ import org.koitharu.kotatsu.parsers.site.madara.MadaraParser
 import org.koitharu.kotatsu.parsers.util.attrAsRelativeUrlOrNull
 import org.koitharu.kotatsu.parsers.util.generateUid
 import org.koitharu.kotatsu.parsers.util.mapChapters
-import org.koitharu.kotatsu.parsers.util.selectFirstOrThrow
+import org.koitharu.kotatsu.parsers.util.parseFailed
 import java.text.SimpleDateFormat
-import java.util.*
 
 @MangaSourceParser("ERO18X", "Ero18x", "", ContentType.HENTAI)
 internal class Ero18x(context: MangaLoaderContext) :
